@@ -1,0 +1,33 @@
+// DATATYPES
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text.RegularExpressions;
+
+namespace HelloWorld
+{
+	public class Program
+	{
+		public static void Main(string[] args)
+		{
+			string name = "Mark Kenneth ";
+            Console.WriteLine(name);
+
+			int Number;
+			Number = 21;
+			Console.WriteLine(Number);
+
+			bool Bool = true;
+			Console.WriteLine(Bool);
+
+			double DoubleNumber = 21.50;
+			Console.WriteLine(DoubleNumber);
+
+			char Chart = 'Fruits';
+			Console.WriteLine(Chart);
+
+			Console.WriteLine("Hi my name is "+name+", I am "+Number+" years old.\n I bought a apple for a price of "+DoubleNumber+ 
+			"per kilo.\n The name of the store is "+Chart+ " and is it for selling a high value fruits.");
+		}
+	}
+}
